@@ -1,2 +1,7 @@
+<<<<<<< HEAD
 Emily Rocio Coaquira Castillo
 
+=======
+Emily Rocio Coaquira Castillo 
+Thais Brenda Mamani Condori
+>>>>>>> da4fbe0b5d2a97d22487be3e4bc9509657acdbcb
