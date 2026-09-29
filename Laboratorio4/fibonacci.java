@@ -1,4 +1,8 @@
+/**
+ * Programa: Serie de Fibonacci
+ */
 public class fibonacci {
+
     public static int fibonacci(int n) {
         if (n <= 1) {
             return n;
@@ -9,12 +13,16 @@ public class fibonacci {
     public static void main(String[] args) {
         int n = 10;
 
-        System.out.println("Serie de Fibonacci (primeros " + n + " términos):");
+        System.out.println("========================================");
+        System.out.println(" Serie de Fibonacci");
+        System.out.println("========================================");
+        System.out.println("Primeros " + n + " términos:");
 
         for (int i = 0; i < n; i++) {
             System.out.print(fibonacci(i) + " ");
         }
 
         System.out.println();
+        System.out.println("========================================");
     }
 }
