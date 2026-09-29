@@ -1,15 +1,20 @@
 public class fibonacci {
-    public static void main(String[] args) {
-        int n = 10, t1 = 0, t2 = 1;
-        
-        System.out.println("Serie de Fibonacci (primeros " + n + " términos):");
-        
-        for (int i = 1; i <= n; ++i) {
-            System.out.print(t1 + " ");
-            int sum = t1 + t2;
-            t1 = t2;
-            t2 = sum;
+    public static int fibonacci(int n) {
+        if (n <= 1) {
+            return n;
         }
+        return fibonacci(n - 1) + fibonacci(n - 2);
+    }
+
+    public static void main(String[] args) {
+        int n = 10;
+
+        System.out.println("Serie de Fibonacci (primeros " + n + " términos):");
+
+        for (int i = 0; i < n; i++) {
+            System.out.print(fibonacci(i) + " ");
+        }
+
         System.out.println();
     }
 }
