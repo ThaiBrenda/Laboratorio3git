@@ -1,6 +1,6 @@
 /**
  * Programa: Serie de Fibonacci (versión iterativa)
- * Autor: Emily Rocio Coaquira Casti
+ * Autor: Emily Rocio Coaquira Castillo
  * Descripción: Genera los primeros n términos de la serie de Fibonacci
  *              utilizando un algoritmo iterativo.
  */
